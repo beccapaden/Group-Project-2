@@ -12,6 +12,28 @@
 4. Tyler Haleblian @tah52351
 5. Logan Carras @lgc52432
 
-# Scenario Description:
+# Dataset Description:
+
+...
+
+# Question 1:
+
+...
+
+# Question 2:
+
+... 
+
+# Manipulations
+
+...
+
+# Analysis and Results
+
+...
+
+# Tableau Packaged Workbook
+
+...
 
 
