@@ -37,11 +37,7 @@ This relates to the dataset as it lists out the most important contributing fact
 
 # Question 2: What time of day has the most traffic accidents outside of the normal rush hour traffic?
 
-Our second question is another one that could easily contain frequency bias.
-
-If there are more cars on the road, there are more opportunities for collisions to occur. 
-
-To compensate for this, and because there is no applicable data for how many cars on on the road at each given time in the data set, we are proactively not taking into account collisions that occur during normal rush hour traffic, which is around 8am in the morning and 4pm in the evening. 
+Our second question is another one that could easily contain frequency bias. If there are more cars on the road, there are more opportunities for collisions to occur. To compensate for this, and because there is no applicable data for how many cars on on the road at each given time in the data set, we are proactively not taking into account collisions that occur during normal rush hour traffic, which is around 8am in the morning and 4pm in the evening. 
 
 Additionally, by using the year of the collision, we can compare the accidents from 2014 and 2024 to see if there are any differences in the last 10 years that would affect peak collision times.
 
