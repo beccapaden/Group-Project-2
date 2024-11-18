@@ -66,13 +66,10 @@ Question 1:
 - The data shows that a large volume of injuries does not directly translate to fatalities. Driver inattention and failure to yield for example cause a lot of injuries, but don’t have a high death to injury ratio.
 
 Question 2:
-- The Tableau visualization confirms the common assumptions that rush hours (4-6PM) have the highest number of crashes, particularly those involving injuries
--   Key Factor: A higher volume of vehicles during this time increases the likelihood of accidents 
-- Other Peak Times:
--   8AM Peak: Likely due to increased traffic from commuters heading to work
--   12AM Peak: Possibly caused by driver fatigue as individuals fall asleep behind the wheel during late-night hours 
-- Correlation with Fatalities:
--   The analysis reveals a weak correlation between crash time and the number of deaths, with an R2 value of only 0.05. This result is surprising and indicaties other factors may play a more significant role in fatalities.
+- The Tableau visualization confirms the common assumptions that rush hours (4-6PM) have the highest number of crashes, particularly those involving injuries. A higher volume of vehicles during this time increases the likelihood of accidents 
+- 8AM Peak: Likely due to increased traffic from commuters heading to work
+- 12AM Peak: Possibly caused by driver fatigue as individuals fall asleep behind the wheel during late-night hours 
+- The analysis reveals a weak correlation between crash time and the number of deaths, with an R2 value of only 0.05. This result is surprising and indicaties other factors may play a more significant role in fatalities.
 - In conclusion, time of day is a stronger predictor of injuries in accidents with injuries than fatalities, highlighting the important of traffic patterns when addressing road safety measures
 
 
