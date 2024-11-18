@@ -60,25 +60,20 @@ Question 2:
 
 # Analysis and Results
 Question 1:
-Creating a measure that divides the number of pedestrians killed by the number of pedestrians injured allows users visualize the most fatal types of contributing factors. This will help with traffic law regulation and administration, as policies can be more focused on the most fatal collision types.
 
-The factors that are most predictably fatal, like falling asleep under the wheel, alcohol involvement, and high speeds, are near the top, but there are a few surprises as well, like illness and tinted windows.
-
-The data shows that a large volume of injuries does not directly translate to fatalities. Driver inattention and failure to yield for example cause a lot of injuries, but don’t have a high death to injury ratio.
+- Creating a measure that divides the number of pedestrians killed by the number of pedestrians injured allows users visualize the most fatal types of contributing factors. This will help with traffic law regulation and administration, as policies can be more focused on the most fatal collision types.
+- The factors that are most predictably fatal, like falling asleep under the wheel, alcohol involvement, and high speeds, are near the top, but there are a few surprises as well, like illness and tinted windows.
+- The data shows that a large volume of injuries does not directly translate to fatalities. Driver inattention and failure to yield for example cause a lot of injuries, but don’t have a high death to injury ratio.
 
 Question 2:
-Rush Hour Crashes: 
 - The Tableau visualization confirms the common assumptions that rush hours (4-6PM) have the highest number of crashes, particularly those involving injuries
-- Key Factor: A higher volume of vehicles during this time increases the likelihood of accidents 
-
-Other Peak Times:
-- 8AM Peak: Likely due to increased traffic from commuters heading to work
-- 12AM Peak: Possibly caused by driver fatigue as individuals fall asleep behind the wheel during late-night hours 
-
-Correlation with Fatalities:
-- The analysis reveals a weak correlation between crash time and the number of deaths, with an R2 value of only 0.05. This result is surprising and indicaties other factors may play a more significant role in fatalities.
-
-In conclusion, time of day is a stronger predictor of injuries in accidents with injuries than fatalities, highlighting the important of traffic patterns when addressing road safety measures
+-   Key Factor: A higher volume of vehicles during this time increases the likelihood of accidents 
+- Other Peak Times:
+-   8AM Peak: Likely due to increased traffic from commuters heading to work
+-   12AM Peak: Possibly caused by driver fatigue as individuals fall asleep behind the wheel during late-night hours 
+- Correlation with Fatalities:
+-   The analysis reveals a weak correlation between crash time and the number of deaths, with an R2 value of only 0.05. This result is surprising and indicaties other factors may play a more significant role in fatalities.
+- In conclusion, time of day is a stronger predictor of injuries in accidents with injuries than fatalities, highlighting the important of traffic patterns when addressing road safety measures
 
 
 # Tableau Packaged Workbook
