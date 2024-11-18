@@ -26,7 +26,8 @@ This data covers all important aspects of the collision, including:
 
 The dataset also includes additional measures:
 - How many pedestrians, cyclists, motorists, and total persons were injured in the collision and how many died as a result of the collision.
-The data set has
+
+The data set includes:
 - 2.13 million rows
 - 29 columns
 - Text fields include borough, crash date, crash time, location, 5 vehicle codes, and 5 contributing factors
