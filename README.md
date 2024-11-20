@@ -75,6 +75,7 @@ Question 1:
 
 <img width="630" alt="Screenshot 2024-11-20 at 12 53 29 PM" src="https://github.com/user-attachments/assets/d30764fa-b561-4467-bdf5-f41a9e6f6791">
 
+
 Question 2:
 - The Tableau visualization confirms the common assumptions that rush hours 8 AM as well as (4-6PM) have the highest number of crashes
 - Ignoring peak traffic times, 2 p.m. sees a relative maximum in both 2014 and 2024, with 2014 having 10,000 more collisions than in 2024. A possible explanation for this apex in accidents could be volume on the road or distractions
