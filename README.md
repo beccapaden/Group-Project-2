@@ -44,9 +44,11 @@ Question 1: Which contributing factors lead to the greatest number of injured pe
 
 Question 2: What time of day has the most traffic accidents outside of the normal rush hour traffic?
 
-- Our second question is another one that could easily contain frequency bias. If there are more cars on the road, there are more opportunities for collisions to occur. To compensate for this, and because there is no applicable data for how many cars on on the road at each given time in the data set, we are proactively not taking into account collisions that occur during normal rush hour traffic, which is around 8am in the morning and 4pm in the evening. 
+- This question once again brings up a frequency bias If there are more cars on the road, there are more opportunities for collisions to occur. 
+- To compensate for this, and because there is no applicable data for how many cars are on the road at each given time in the data set, we will not taking into consideration the collisions that occur during normal rush hour traffic, which is around 8am in the morning and 4pm in the evening. 
 - Additionally, by using the year of the collision, we can compare the accidents from 2014 and 2024 to see if there are any differences in the last 10 years that would affect peak collision times.
 - This question relates to our dataset as we are able to use count functions to determine how many collisions happened, and we are able to plot it on a line graph as the dataset relays what time each collision occurred.
+
 
 # Manipulations
 Question 1:
@@ -56,30 +58,30 @@ Question 1:
 - On the comparison graph, the number above each bar showcases the number of deaths caused to further make it easier to see how rare deaths were in some cases.
 
 Question 2:
-- The total number of crashes was calculated by adding Total Deaths and Total Injuries using a calculated field
-- The crash time was also grouped by the hour
-- These manipulations and calculations were done to help answer the question
--   The crash time was changed to hour to be able to see the peaks and valleys by time of day to identify high-risk times
--   The calculated field was created to see the total number of crashes concerning both deaths and injuries to see the total for each time of day
+- The crash time was grouped by the hour
+- The crash time was changed to hour to be able to see the peaks and valleys by time of day to identify high-risk times
+- The years were filtered to only show 2014 and 2024
+- The collison ID was also changed to a count dimension to get the number of crashes for each hour
+
 
 
 # Analysis and Results
 Question 1:
 
 - Creating a measure that divides the number of pedestrians killed by the number of pedestrians injured allows users visualize the most fatal types of contributing factors. This will help with traffic law regulation and administration, as policies can be more focused on the most fatal collision types.
-- The factors that are most predictably fatal, like falling asleep under the wheel, alcohol involvement, and high speeds, are near the top, but there are a few surprises as well, like illness and tinted windows.
+- The factors that show the highest ratio are Illness, Tinted Windows, and Alcohol involvement. 
+- Alcohol involvement happens the most frequently out of the three top factors, but Illness creates many more deaths compared to injuries.
 - The data shows that a large volume of injuries does not directly translate to fatalities. Driver inattention and failure to yield for example cause a lot of injuries, but don’t have a high death to injury ratio.
 
 <img width="630" alt="Screenshot 2024-11-20 at 12 53 29 PM" src="https://github.com/user-attachments/assets/d30764fa-b561-4467-bdf5-f41a9e6f6791">
 
 Question 2:
-- The Tableau visualization confirms the common assumptions that rush hours (4-6PM) have the highest number of crashes, particularly those involving injuries. A higher volume of vehicles during this time increases the likelihood of accidents 
-- 8AM Peak: Likely due to increased traffic from commuters heading to work
-- 12AM Peak: Possibly caused by driver fatigue as individuals fall asleep behind the wheel during late-night hours 
-- The analysis reveals a weak correlation between crash time and the number of deaths, with an R2 value of only 0.05. This result is surprising and indicaties other factors may play a more significant role in fatalities.
-- In conclusion, time of day is a stronger predictor of injuries in accidents with injuries than fatalities, highlighting the important of traffic patterns when addressing road safety measures
+- The Tableau visualization confirms the common assumptions that rush hours 8 AM as well as (4-6PM) have the highest number of crashes
+- Ignoring peak traffic times, 2 p.m. sees a relative maximum in both 2014 and 2024, with 2014 having 10,000 more collisions than in 2024. A possible explanation for this apex in accidents could be volume on the road or distractions
+- The number of crashes is significantly higher in 2014 and is more volatile too. In 2014, collisions trended upwards at a high rate through the day but is beginning to level out as we move to 2024.
+- The number of crashes has been slowly decreasing since 2014. Even so, there has been very little change in the number of collisions that occur at night, which can be attributed to lack of necessary lighting infrastructure or police presence
 
-<img width="575" alt="Screenshot 2024-11-20 at 12 53 45 PM" src="https://github.com/user-attachments/assets/f23ea107-dbb4-477c-ba4a-bd23fb77db0f">
+<img width="567" alt="Screenshot 2024-11-20 at 3 22 13 PM" src="https://github.com/user-attachments/assets/a547b8db-f2dc-49a8-8c30-e5f3b1928d03">
 
 # Tableau Packaged Workbook
 
