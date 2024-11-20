@@ -70,6 +70,8 @@ Question 1:
 - The factors that are most predictably fatal, like falling asleep under the wheel, alcohol involvement, and high speeds, are near the top, but there are a few surprises as well, like illness and tinted windows.
 - The data shows that a large volume of injuries does not directly translate to fatalities. Driver inattention and failure to yield for example cause a lot of injuries, but don’t have a high death to injury ratio.
 
+<img width="630" alt="Screenshot 2024-11-20 at 12 53 29 PM" src="https://github.com/user-attachments/assets/d30764fa-b561-4467-bdf5-f41a9e6f6791">
+
 Question 2:
 - The Tableau visualization confirms the common assumptions that rush hours (4-6PM) have the highest number of crashes, particularly those involving injuries. A higher volume of vehicles during this time increases the likelihood of accidents 
 - 8AM Peak: Likely due to increased traffic from commuters heading to work
@@ -77,6 +79,7 @@ Question 2:
 - The analysis reveals a weak correlation between crash time and the number of deaths, with an R2 value of only 0.05. This result is surprising and indicaties other factors may play a more significant role in fatalities.
 - In conclusion, time of day is a stronger predictor of injuries in accidents with injuries than fatalities, highlighting the important of traffic patterns when addressing road safety measures
 
+<img width="575" alt="Screenshot 2024-11-20 at 12 53 45 PM" src="https://github.com/user-attachments/assets/f23ea107-dbb4-477c-ba4a-bd23fb77db0f">
 
 # Tableau Packaged Workbook
 
