@@ -83,6 +83,3 @@ Question 2:
 - The number of crashes has been slowly decreasing since 2014. Even so, there has been very little change in the number of collisions that occur at night, which can be attributed to lack of necessary lighting infrastructure or police presence
 
 <img width="567" alt="Screenshot 2024-11-20 at 3 22 13 PM" src="https://github.com/user-attachments/assets/a547b8db-f2dc-49a8-8c30-e5f3b1928d03">
-
-# Tableau Packaged Workbook
-
